@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Pesq.Css">
+    <title>Pesquisa</title>
+</head>
+<body  id="main" onload="hide();pes2()">
+    <header>
+        <a href="./index.html">
+        <img class="setaVolt" src="./imagens/voltar.png" alt="seta para volar para pagina principal">
+        </a>
+        <div class="BrPesq">
+            <p class="textPq">Pesquisa</p>
+            <input type="text" class="barraP" id="bPp">
+            <button type="submit" class="butP" onclick="pes2()">Pesquisa</button>
+        </div>
+        <img class="carCom" src="./Imagens/Carrinho.png.png" alt="carrinho de compras">
+    </header>
+    <div class="textoVaz" id="textoVaz">
+        <p>Nenhum resultado encontrado</p>
+    </div>
+    <div class="prods">
+    <div class="prodcar1" value="1" id="prodcar1">
+        <img class="prod1" src="./imagens/slime.jpg" alt="Produto 1">
+        <p class="prodTit1">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd1">R$76,15</p>
+        <button class="prodCa1">Adicionar ao Carrinho</button>
+        <button class="prodDe1">Detalhes</button>
+    </div>
+    <div class="prodcar2" value="2" id="prodcar2">
+        <img class="prod2" src="./imagens/slime.jpg" alt="Produto 2">
+        <p class="prodTit2">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd2">R$76,15</p>
+        <button class="prodCa2">Adicionar ao Carrinho</button>
+        <button class="prodDe2">Detalhes</button>
+    </div>
+    <div class="prodcar3" value="3" id="prodcar3">
+        <img class="prod3" src="./imagens/slime.jpg" alt="Produto 3">
+        <p class="prodTit3">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd3">R$76,15</p>
+        <button class="prodCa3">Adicionar ao Carrinho</button>
+        <button class="prodDe3">Detalhes</button>
+    </div>
+    <div class="prodcar4" id="prodcar4">
+        <img class="prod4" src="./imagens/slime.jpg" alt="Produto 4">
+        <p class="prodTit4">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd4">R$76,15</p>
+        <button class="prodCa4">Adicionar ao Carrinho</button>
+        <button class="prodDe4">Detalhes</button>
+    </div>
+    <div class="prodcar5" id="prodcar5">
+        <img class="prod5" src="./imagens/slime.jpg" alt="Produto 5">
+        <p class="prodTit5">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd5">R$76,15</p>
+        <button class="prodCa5">Adicionar ao Carrinho</button>
+        <button class="prodDe5">Detalhes</button>
+    </div>
+    <div class="prodcar6" id="prodcar6">
+        <img class="prod6" src="./imagens/slime.jpg" alt="Produto 6">
+        <p class="prodTit6">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd6">R$76,15</p>
+        <button class="prodCa6">Adicionar ao Carrinho</button>
+        <button class="prodDe6">Detalhes</button>
+    </div>
+    <div class="prodcar7" id="prodcar7">
+        <img class="prod7" src="./imagens/slime.jpg" alt="Produto 7">
+        <p class="prodTit7">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd7">R$76,15</p>
+        <button class="prodCa7">Adicionar ao Carrinho</button>
+        <button class="prodDe7">Detalhes</button>
+    </div>
+    <div class="prodcar8" id="prodcar8">
+        <img class="prod8" src="./imagens/slime.jpg" alt="Produto 8">
+        <p class="prodTit8">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd8">R$76,15</p>
+        <button class="prodCa8">Adicionar ao Carrinho</button>
+        <button class="prodDe8">Detalhes</button>
+    </div>
+    <div class="prodcar9" id="prodcar9">
+        <img class="prod9" src="./imagens/slime.jpg" alt="Produto 9">
+        <p class="prodTit9">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd9">R$76,15</p>
+        <button class="prodCa9">Adicionar ao Carrinho</button>
+        <button class="prodDe9">Detalhes</button>
+    </div>
+    <div class="prodcar10" id="prodcar10">
+        <img class="prod10" src="./imagens/slime.jpg" alt="Produto 10">
+        <p class="prodTit10">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd10">R$76,15</p>
+        <button class="prodCa10">Adicionar ao Carrinho</button>
+        <button class="prodDe10">Detalhes</button>
+    </div>
+    <div class="prodcar11" id="prodcar11">
+        <img class="prod11" src="./imagens/slime.jpg" alt="Produto 11">
+        <p class="prodTit11">Light Novel - Tensei Shitara Slime Datta Ken11</p>
+        <p class="precoProd11">R$76,15</p>
+        <button class="prodCa11">Adicionar ao Carrinho</button>
+        <button class="prodDe11">Detalhes</button>
+    </div>
+    <div class="prodcar12" id="prodcar12">
+        <img class="prod12" src="./imagens/slime.jpg" alt="Produto 12">
+        <p class="prodTit12">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd12">R$76,15</p>
+        <button class="prodCa12">Adicionar ao Carrinho</button>
+        <button class="prodDe12">Detalhes</button>
+    </div>
+    <div class="prodcar13" id="prodcar13">
+        <img class="prod13" src="./imagens/slime.jpg" alt="Produto 13">
+        <p class="prodTit13">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd13">R$76,15</p>
+        <button class="prodCa13">Adicionar ao Carrinho</button>
+        <button class="prodDe13">Detalhes</button>
+    </div>
+    <div class="prodcar14" id="prodcar14">
+        <img class="prod14" src="./imagens/slime.jpg" alt="Produto 14">
+        <p class="prodTit14">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd14">R$76,15</p>
+        <button class="prodCa14">Adicionar ao Carrinho</button>
+        <button class="prodDe14">Detalhes</button>
+    </div>
+    <div class="prodcar15" id="prodcar15">
+        <img class="prod15" src="./imagens/slime.jpg" alt="Produto 15">
+        <p class="prodTit15">Light Novel - Tensei Shitara Slime Datta Ken</p>
+        <p class="precoProd15">R$76,15</p>
+        <button class="prodCa15">Adicionar ao Carrinho</button>
+        <button class="prodDe15">Detalhes</button>
+    </div>
+    </div>
+    <button id="ProPag">Proxima pagina</button>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1037 @@
+html{
+    overflow: hidden;
+}
+header{
+    display: flex;
+       background-color: rgba(12, 8, 221, 0.813);
+    position: absolute;
+    top:-1%;
+    right: 0%;
+    left: 0%;
+    max-height: 15%;
+}
+.setaVolt{
+    max-width: 90%;
+    max-height: 90%;
+}
+.carCom{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    max-width: 75%;
+    max-height: 75%;
+}
+.carTex{
+    position: absolute;
+    right: 5%;
+    top: 72%;
+}
+.ImgP{
+    max-width: 15rem;
+    min-height: 22rem;
+    max-height: 22rem;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+.desc{
+    position: absolute;
+    bottom: 1%;
+    top: 63%;
+    right: 1%;
+    left: 1%;
+    border-style:ridge;
+}
+.description{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: larger;
+    font-weight: 550;
+}
+.gen{
+    min-width: 11.5%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.ye{
+    min-width: 9.5%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 53%;
+    left: 20%;
+}
+.titulo{
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    font-size: xx-large;
+}
+.estrelas{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+#count{
+    position: absolute;
+    top: 31%;
+    left: 32%;
+    opacity: 50%;
+}
+#Carin{
+    position: absolute;
+    left: 85%;
+    top: 55%;
+    width: 15rem;
+    height: 2rem;
+    font-size: larger;
+    background-color: whitesmoke;
+    color: blue;
+    border-color: blueviolet;
+    transition: 0.3s;
+}
+#Carin:hover{
+    font-weight: 900;
+    font-size: large;
+    color: blueviolet;
+    background-color: blue;
+    border-color: red;
+    width: 15rem;
+    height: 2.2rem;
+}
+#brand{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    font-size: x-large;
+}
+#pri{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    text-decoration: underline;
+    font-size: larger;
+}
+@media(min-width:2000px){
+    header{
+        display: flex;
+           background-color: rgba(12, 9, 184, 0.813);
+        position: absolute;
+        top:-1%;
+        right: 0%;
+        left: 0%;
+        max-height: 13%;
+    }
+    .textPq{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        font-size: 50px;
+    }
+    .barraP{
+        min-height: 2rem;
+        min-width: 150%;
+        position:relative;
+        top: 0%;
+    }
+    .butP{
+        min-height: 2.5rem;
+        font-size: x-large;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 10%;
+        max-width: 70%;
+        max-height: 70%;
+    }
+    .carTex{
+        position: absolute;
+        font-size: XX-large;
+        right: 4%;
+        top: 64%;
+    }
+    .titulo{
+        position: absolute;
+        top: 16%;
+        left: 20%;
+        font-size: 60px;
+    }
+    .estrelas{
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        font-size: x-large;
+    }
+    #count{
+        position: absolute;
+        top: 31%;
+        left: 32%;
+        opacity: 50%;
+        font-size: x-large;
+    }
+    #Carin{
+        position: absolute;
+        left: 85%;
+        top: 55%;
+        width: 20rem;
+        height: 2rem;
+        font-size: x-large;
+        background-color: whitesmoke;
+        color: blue;
+        border-color: blueviolet;
+        transition: 0.3s;
+    }
+    #Carin:hover{
+        font-weight: 900;
+        font-size: larger;
+        left: 84.4%;
+        color: blueviolet;
+        background-color: rgb(1, 1, 249);
+        border-color: red;
+        width: 21rem;
+        height: 2rem;
+    }
+    .ImgP{
+        max-width: fit-content;
+        min-height: 30rem;
+        max-height: 22rem;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+    .desc{
+        position: absolute;
+        bottom: 1%;
+        top: 63%;
+        right: 1%;
+        left: 1%;
+        border-style:ridge;
+    }
+    .description{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: XX-large;
+        font-weight: 550;
+    }
+}
+@media(max-width:1500px){
+    header{
+        display: flex;
+           background-color: rgba(12, 9, 184, 0.813);
+        position: absolute;
+        top:-1%;
+        right: 0%;
+        left: 0%;
+        max-height: 13%;
+    }
+    .textPq{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        font-size: x-large;
+    }
+    .barraP{
+        max-height: 2rem;
+        min-width: 150%;
+        position:relative;
+        top: 0%;
+    }
+    .butP{
+        min-height: 1.4rem;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 10%;
+        max-width: 70%;
+        max-height: 70%;
+    }
+    .carTex{
+        position: absolute;
+        right: 5%;
+        top: 67%;
+    }
+    .titulo{
+        position: absolute;
+        top: 18%;
+        left: 24%;
+        font-size: 30px;
+    }
+    .estrelas{
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        font-size: medium;
+    }
+    #count{
+        position: absolute;
+        top: 33%;
+        left: 30%;
+        opacity: 50%;
+        font-size: x-large;
+    }
+    #Carin{
+        position: absolute;
+        left: 80%;
+        top: 55%;
+        width: 15rem;
+        height: 2rem;
+        font-size: larger;
+        background-color: whitesmoke;
+        color: blue;
+        border-color: blueviolet;
+        transition: 0.3s;
+    }
+    #Carin:hover{
+        font-weight: 900;
+        left: 79.4%;
+        font-size: large;
+        color: blueviolet;
+        background-color: blue;
+        border-color: red;
+        width: 16rem;
+        height: 2.3rem;
+    }
+    .ImgP{
+        max-width: fit-content;
+        min-height: 20rem;
+        max-height: 22rem;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+    .desc{
+        position: absolute;
+        bottom: 1%;
+        top: 63%;
+        right: 1%;
+        left: 1%;
+        border-style:ridge;
+    }
+    .description{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size:larger;
+        font-weight: 550;
+    }
+}
+@media(max-width:1200px){
+    header{
+        display: flex;
+           background-color: rgba(12, 9, 184, 0.813);
+        position: absolute;
+        top:-1%;
+        right: 0%;
+        left: 0%;
+        max-height: 13%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 12%;
+        max-width: 60%;
+        max-height: 60%;
+    }
+    .carTex{
+        position: absolute;
+        right: 2%;
+        top: 60%;
+    }
+    .titulo{
+        position: absolute;
+        top: 18%;
+        left: 24%;
+        font-size: 30px;
+    }
+    .estrelas{
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        font-size: small;
+    }
+    #count{
+        position: absolute;
+        top: 33%;
+        left: 30%;
+        opacity: 50%;
+        font-size: larger;
+    }
+    #Carin{
+        position: absolute;
+        left: 80%;
+        top: 55%;
+        width: 12rem;
+        height: 2rem;
+        font-size: medium;
+        background-color: whitesmoke;
+        color: blue;
+        border-color: blueviolet;
+        transition: 0.3s;
+    }
+    #Carin:hover{
+        font-weight: 900;
+        left: 79.4%;
+        font-size: small;
+        color: blueviolet;
+        background-color: blue;
+        border-color: red;
+        width: 12.1rem;
+        height: 2.3rem;
+    }
+    .ImgP{
+        max-width: fit-content;
+        min-height: 16rem;
+        max-height:8rem;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+    .desc{
+        position: absolute;
+        bottom: 1%;
+        top: 63%;
+        right: 1%;
+        left: 1%;
+        border-style:ridge;
+    }
+    .description{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size:larger;
+        font-weight: 550;
+    }
+}
+@media(max-width:1200px){
+    header{
+        display: flex;
+           background-color: rgba(12, 9, 184, 0.813);
+        position: absolute;
+        top:-1%;
+        right: 0%;
+        left: 0%;
+        max-height: 13%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 12%;
+        max-width: 60%;
+        max-height: 60%;
+    }
+    .carTex{
+        position: absolute;
+        right: 2%;
+        top: 60%;
+    }
+    .titulo{
+        position: absolute;
+        top: 18%;
+        left: 24%;
+        font-size: 30px;
+    }
+    .estrelas{
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        font-size: small;
+    }
+    #count{
+        position: absolute;
+        top: 33%;
+        left: 30%;
+        opacity: 50%;
+        font-size: larger;
+    }
+    #Carin{
+        position: absolute;
+        left: 80%;
+        top: 55%;
+        width: 12rem;
+        height: 2rem;
+        font-size: medium;
+        background-color: whitesmoke;
+        color: blue;
+        border-color: blueviolet;
+        transition: 0.3s;
+    }
+    #Carin:hover{
+        font-weight: 900;
+        left: 79.4%;
+        font-size: small;
+        color: blueviolet;
+        background-color: blue;
+        border-color: red;
+        width: 12.1rem;
+        height: 2.3rem;
+    }
+    .ImgP{
+        max-width: fit-content;
+        min-height: 16rem;
+        max-height:8rem;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+    .desc{
+        position: absolute;
+        bottom: 1%;
+        top: 63%;
+        right: 1%;
+        left: 1%;
+        border-style:ridge;
+    }
+    .description{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size:larger;
+        font-weight: 550;
+    }
+}
+@media(max-width:800px){
+    header{
+        display: flex;
+           background-color: rgba(12, 9, 184, 0.813);
+        position: absolute;
+        top:-1%;
+        right: 0%;
+        left: 0%;
+        max-height: 13%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 12%;
+        max-width: 60%;
+        max-height: 60%;
+    }
+    .carTex{
+        position: absolute;
+        right: 2%;
+        top: 50%;
+    }
+    .titulo{
+        position: absolute;
+        top: 18%;
+        left: 24%;
+        font-size: 20px;
+    }
+    .estrelas{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        font-size: x-small;
+    }
+    #count{
+        position: absolute;
+        top: 28%;
+        left: 28%;
+        opacity: 50%;
+        font-size: medium;
+    }
+    #Carin{
+        position: absolute;
+        left: 76%;
+        top: 55%;
+        width: 10rem;
+        height: 1.6rem;
+        font-size: small;
+        background-color: whitesmoke;
+        color: blue;
+        border-color: blueviolet;
+        transition: 0.3s;
+    }
+    #Carin:hover{
+        font-weight: 700;
+        left: 75.4%;
+        font-size: smaller;
+        color: blueviolet;
+        background-color: blue;
+        border-color: red;
+        width: 10.1rem;
+        height: 1.9rem;
+    }
+    .ImgP{
+        max-width: fit-content;
+        min-height: 11rem;
+        max-height:8rem;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+    .desc{
+        position: absolute;
+        bottom: 1%;
+        top: 63%;
+        right: 1%;
+        left: 1%;
+        border-style:ridge;
+    }
+    .description{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size:small;
+        font-weight: 550;
+    }
+}
+@media(max-width:800px){
+    header{
+        display: flex;
+           background-color: rgba(12, 9, 184, 0.813);
+        position: absolute;
+        top:-1%;
+        right: 0%;
+        left: 0%;
+        max-height: 13%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 12%;
+        max-width: 60%;
+        max-height: 60%;
+    }
+    .carTex{
+        position: absolute;
+        right: 2%;
+        top: 50%;
+    }
+    .titulo{
+        position: absolute;
+        top: 18%;
+        left: 24%;
+        font-size: 20px;
+    }
+    .estrelas{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        font-size: x-small;
+    }
+    #count{
+        position: absolute;
+        top: 28%;
+        left: 28%;
+        opacity: 50%;
+        font-size: medium;
+    }
+    #Carin{
+        position: absolute;
+        left: 70%;
+        top: 55%;
+        width: 7.6rem;
+        height: 1.4rem;
+        font-size: x-small;
+        background-color: whitesmoke;
+        color: blue;
+        border-color: blueviolet;
+        transition: 0.3s;
+    }
+    #Carin:hover{
+        font-weight: 700;
+        left: 69.7%;
+        font-size: x-small;
+        color: blueviolet;
+        background-color: blue;
+        border-color: red;
+        width: 7.7rem;
+        height: 1.7rem;
+    }
+    .ImgP{
+        max-width: fit-content;
+        min-height: 11rem;
+        max-height:8rem;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+    .desc{
+        position: absolute;
+        bottom: 1%;
+        top: 63%;
+        right: 1%;
+        left: 1%;
+        border-style:ridge;
+    }
+    .description{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size:x-small;
+        font-weight: 550;
+    }
+}
+@media(max-width:500px){
+    header{
+        display: flex;
+           background-color: rgba(12, 9, 184, 0.813);
+        position: absolute;
+        top:-1%;
+        right: 0%;
+        left: 0%;
+        max-height: 13%;
+    }
+    .setaVolt{
+        max-width: 60%;
+        max-height: 60%;
+        position: relative;
+        top: 20%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 17%;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    .carTex{
+        position: absolute;
+        font-size: x-small;
+        right: 2%;
+        top: 50%;
+    }
+    .titulo{
+        position: absolute;
+        top: 18%;
+        left: 24%;
+        font-size: 10px;
+    }
+    .estrelas{
+        position: absolute;
+        top: 23%;
+        left: 25%;
+        font-size: 6px;
+    }
+    #count{
+        position: absolute;
+        top: 24%;
+        left: 28%;
+        opacity: 50%;
+        font-size: smaller;
+    }
+    #Carin{
+        position: absolute;
+        left: 70%;
+        top: 45%;
+        width: 7.6rem;
+        height: 1.4rem;
+        font-size: x-small;
+        background-color: whitesmoke;
+        color: blue;
+        border-color: blueviolet;
+        transition: 0.3s;
+    }
+    #Carin:hover{
+        font-weight: 700;
+        left: 69.7%;
+        font-size: x-small;
+        color: blueviolet;
+        background-color: blue;
+        border-color: red;
+        width: 7.7rem;
+        height: 1.7rem;
+    }
+    .ImgP{
+        max-width: fit-content;
+        min-height: 6rem;
+        max-height:2rem;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+    .desc{
+        position: absolute;
+        bottom: 1%;
+        top: 50%;
+        right: 1%;
+        left: 1%;
+        border-style:ridge;
+    }
+    .description{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size:x-small;
+        font-weight: 550;
+    }
+}
+@media(max-width:380px){
+    header{
+        display: flex;
+           background-color: rgba(12, 9, 184, 0.813);
+        position: absolute;
+        top:-1%;
+        right: 0%;
+        left: 0%;
+        max-height: 13%;
+    }
+    .setaVolt{
+        max-width: 60%;
+        max-height: 60%;
+        position: relative;
+        top: 20%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 17%;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    .carTex{
+        position: absolute;
+        font-size: x-small;
+        right: 2%;
+        top: 50%;
+    }
+    .titulo{
+        position: absolute;
+        top: 18%;
+        left: 24%;
+        font-size: 10px;
+    }
+    .estrelas{
+        position: absolute;
+        top: 23%;
+        left: 25%;
+        font-size: 6px;
+    }
+    #count{
+        position: absolute;
+        top: 24%;
+        left: 28%;
+        opacity: 50%;
+        font-size: smaller;
+    }
+    #Carin{
+        position: absolute;
+        left: 65%;
+        top: 45%;
+        width: 7.6rem;
+        height: 1.4rem;
+        font-size: x-small;
+        background-color: whitesmoke;
+        color: blue;
+        border-color: blueviolet;
+        transition: 0.3s;
+    }
+    #Carin:hover{
+        font-weight: 700;
+        left: 64.7%;
+        font-size: x-small;
+        color: blueviolet;
+        background-color: blue;
+        border-color: red;
+        width: 7.7rem;
+        height: 1.7rem;
+    }
+    .ImgP{
+        max-width: fit-content;
+        min-height: 6rem;
+        max-height:2rem;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+    .desc{
+        position: absolute;
+        bottom: 1%;
+        top: 50%;
+        right: 1%;
+        left: 1%;
+        border-style:ridge;
+    }
+    .description{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size:x-small;
+        font-weight: 550;
+    }
+}
+@media(max-width:330px){
+    header{
+        display: flex;
+           background-color: rgba(12, 9, 184, 0.813);
+        position: absolute;
+        top:-1%;
+        right: 0%;
+        left: 0%;
+        max-height: 13%;
+    }
+    .setaVolt{
+        max-width: 55%;
+        max-height: 55%;
+        position: relative;
+        left: -2%;
+        top: 20%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 17%;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    .carTex{
+        position: absolute;
+        font-size: x-small;
+        right: 2%;
+        top: 50%;
+    }
+    .titulo{
+        position: absolute;
+        top: 18%;
+        left: 27%;
+        font-size: 10px;
+    }
+    .estrelas{
+        position: absolute;
+        top: 23%;
+        left: 28%;
+        font-size: 6px;
+    }
+    #count{
+        position: absolute;
+        top: 24%;
+        left: 31%;
+        opacity: 50%;
+        font-size: smaller;
+    }
+    #Carin{
+        position: absolute;
+        left: 60%;
+        top: 45%;
+        width: 7.6rem;
+        height: 1.4rem;
+        font-size: x-small;
+        background-color: whitesmoke;
+        color: blue;
+        border-color: blueviolet;
+        transition: 0.3s;
+    }
+    #Carin:hover{
+        font-weight: 700;
+        left: 59.7%;
+        font-size: x-small;
+        color: blueviolet;
+        background-color: blue;
+        border-color: red;
+        width: 7.7rem;
+        height: 1.7rem;
+    }
+    .ImgP{
+        max-width: fit-content;
+        min-height: 6rem;
+        max-height:2rem;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+    .desc{
+        position: absolute;
+        bottom: 1%;
+        top: 50%;
+        right: 1%;
+        left: 1%;
+        border-style:ridge;
+    }
+    .description{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size:x-small;
+        font-weight: 550;
+    }
+}
+@media(max-width:280px){
+    header{
+        display: flex;
+           background-color: rgba(12, 9, 184, 0.813);
+        position: absolute;
+        top:-1%;
+        right: 0%;
+        left: 0%;
+        max-height: 13%;
+    }
+    .setaVolt{
+        max-width: 55%;
+        max-height: 55%;
+        position: relative;
+        left: -2%;
+        top: 20%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 17%;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    .carTex{
+        position: absolute;
+        font-size: x-small;
+        right: 2%;
+        top: 50%;
+    }
+    .titulo{
+        position: absolute;
+        top: 18%;
+        left: 27%;
+        font-size: 10px;
+    }
+    .estrelas{
+        position: absolute;
+        top: 23%;
+        left: 34%;
+        font-size: 6px;
+    }
+    #count{
+        position: absolute;
+        top: 24%;
+        left: 36%;
+        opacity: 50%;
+        font-size: smaller;
+    }
+    #Carin{
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        width: 7.6rem;
+        height: 1.4rem;
+        font-size: x-small;
+        background-color: whitesmoke;
+        color: blue;
+        border-color: blueviolet;
+        transition: 0.3s;
+    }
+    #Carin:hover{
+        font-weight: 700;
+        left: 49.7%;
+        font-size: x-small;
+        color: blueviolet;
+        background-color: blue;
+        border-color: red;
+        width: 7.7rem;
+        height: 1.7rem;
+    }
+    .ImgP{
+        max-width: fit-content;
+        min-height: 6rem;
+        max-height:2rem;
+        position: absolute;
+        left: 1%;
+        top: 20%;
+    }
+    .desc{
+        position: absolute;
+        bottom: 1%;
+        top: 50%;
+        right: 1%;
+        left: 1%;
+        border-style:ridge;
+    }
+    .description{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size:x-small;
+        font-weight: 550;
+    }
+}

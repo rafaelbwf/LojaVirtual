@@ -1,0 +1,4160 @@
+/* ESSE AQUI E O SITE COM PIOR RESPONSIVIDADE, TA MUITO RUIN */
+
+html{
+    overflow-x: hidden;
+    max-width: 10px;
+}
+body{
+    width: 100vw;
+}
+header{
+    display: flex;
+    background-color: rgba(12, 9, 184, 0.813);
+    position: absolute;
+    top: -1%;
+    right: 0%;
+    left: 0%;
+    max-height: 17.7%;
+}
+.BrPesq{
+    display: flex;
+    top: 5%;
+    left: 20%;
+    align-items:center;
+    font-size: large;
+}
+.textPq{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: x-large;
+}
+.barraP{
+    max-height: 2rem;
+    min-width: 150%;
+    position:relative;
+    top: 0%;
+}
+.butP{
+    min-height: 1.4rem;
+}
+.setaVolt{
+    max-width: 90%;
+    max-height: 90%;
+}
+.carCom{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    max-width: 75%;
+    max-height: 75%;
+}
+.carTex{
+    position: absolute;
+    right: 5%;
+    top: 75%;
+}
+
+.textoVaz{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.prod1{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar1{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 16.2%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+    
+}
+.prodTit1{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd1{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa1{
+    position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa1:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe1{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe1:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+
+.prod2{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar2{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 47%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit2{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd2{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa2{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa2:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe2{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe2:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod3{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar3{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 77.8%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit3{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd3{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa3{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa3:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe3{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe3:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod4{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar4{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 108.6%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit4{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd4{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa4{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa4:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe4{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe4:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod5{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar5{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 139.4%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit5{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd5{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa5{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa5:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe5{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe5:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod6{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar6{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 170.2%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit6{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd6{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa6{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa6:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe6{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe6:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod7{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar7{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 200.9%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit7{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd7{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa7{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa7:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe7{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe7:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod8{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar8{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 231.7%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit8{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd8{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa8{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa8:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe8{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe8:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod9{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar9{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 262.6%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit9{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd9{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa9{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa9:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe9{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe9:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod10{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar10{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 293.4%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit10{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd10{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa10{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa10:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe10{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe10:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod11{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar11{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 324.1%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit11{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd11{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa11{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa11:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe11{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe11:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod12{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar12{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 354.9%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit12{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd12{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa12{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa12:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe12{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe12:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod13{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar13{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 385.7%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit13{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd13{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa13{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa13:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe13{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe13:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod14{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar14{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 416.5%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit14{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd14{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa14{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa14:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe14{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe14:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prod15{
+    position: relative;
+    max-width: 167px;
+    min-width: 167px;
+    max-height: 250px;
+    min-height: 250px;
+    grid-row: 1;
+    grid-column: 1;
+}
+.prodcar15{
+    position: absolute;
+    min-height: 15.6rem;
+    top: 447.3%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+}
+.prodTit15{
+   grid-row: 1;
+   grid-column: 2;
+}
+.precoProd15{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    top: 45%;
+    left: 15%;
+}
+.prodCa15{
+   position: absolute;
+    right: 15%;
+    font-size: large;
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 13rem;
+    max-height: 2rem;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+    transition: 0.01s;
+}
+.prodCa15:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+.prodDe15{
+    position: absolute;
+    right: 5%;
+    grid-column: 6;
+    grid-row: 2;
+    max-width: 6rem;
+    max-height: 2rem;
+    font-size: large;
+    background-color: white;
+    border-color: blue;
+    border-width: 0.3rem;
+    color: blue;
+}
+.prodDe15:hover{
+    background-color: lightblue;
+    border-color: lightblue;
+    color: whitesmoke;
+    border-width: 0.4rem;
+}
+#ProPag{
+    display:grid;
+    position: absolute;
+    top: 481.3%;
+    left: 45%;
+    min-width: 10rem;
+    max-width: 10rem;
+    min-height: 3rem;
+    max-height: 3rem;
+    background-color: bisque;
+    color: darkblue;
+    border-color: aqua;
+    font-size: large;
+    border-width: 0.3dvi;
+    transition: 0.2s
+}
+#ProPag:hover{
+    background-color: black;
+    color: gold;
+    border-color: silver;
+}
+.prodCa1, 
+     .prodCa2, 
+     .prodCa3, 
+     .prodCa4, 
+     .prodCa5,
+     .prodCa6, 
+     .prodCa7, 
+     .prodCa8, 
+     .prodCa9, 
+     .prodCa10,
+     .prodCa11, 
+     .prodCa12, 
+     .prodCa13, 
+     .prodCa14, 
+     .prodCa15{
+        position: absolute;
+        top: 20%;
+        right: 15%;
+    }
+    .prodDe1, 
+    .prodDe2, 
+    .prodDe3, 
+    .prodDe4, 
+    .prodDe5, 
+    .prodDe6, 
+    .prodDe7, 
+    .prodDe8, 
+    .prodDe9, 
+    .prodDe10,
+    .prodDe11, 
+    .prodDe12, 
+    .prodDe13, 
+    .prodDe14, 
+    .prodDe15{
+        position: absolute;
+        top: 20%;
+    }
+@media(min-width:2000px){
+    html{
+        max-width: 2560px;
+    }
+    .prodcar1{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 16.2%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar2{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 38.4%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar3{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 60.71%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar4{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 82.8%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar5{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 105.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar6{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 127.3%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar7{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 149.4%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar8{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 171.7%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar9{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 194%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar10{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 216.3%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar11{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 238.6%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar12{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 260.9%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar13{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 283.2%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar14{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 305.5%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar15{
+        position: absolute;
+        min-height: 20.6rem;
+        top: 327.7%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 14rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prod1, 
+    .prod2, 
+    .prod3, 
+    .prod4, 
+    .prod5, 
+    .prod6, 
+    .prod7, 
+    .prod8, 
+    .prod9, 
+    .prod10, 
+    .prod11, 
+    .prod12, 
+    .prod13, 
+    .prod14, 
+    .prod15{
+        position: relative;
+        max-width: 167px;
+        min-width: 207px;
+        max-height: 250px;
+        min-height: 327px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .prodTit1, 
+    .prodTit2, 
+    .prodTit3, 
+    .prodTit4, 
+    .prodTit5, 
+    .prodTit6, 
+    .prodTit7, 
+    .prodTit8, 
+    .prodTit9, 
+    .prodTit10, 
+    .prodTit11, 
+    .prodTit12, 
+    .prodTit13, 
+    .prodTit14, 
+    .prodTit15{
+        grid-row: 1;
+        grid-column: 2;
+        font-size: 40px;
+     }
+     .precoProd1, 
+     .precoProd2, 
+     .precoProd3, 
+     .precoProd4, 
+     .precoProd5, 
+     .precoProd6, 
+     .precoProd7, 
+     .precoProd8, 
+     .precoProd9, 
+     .precoProd10, 
+     .precoProd11, 
+     .precoProd12, 
+     .precoProd13, 
+     .precoProd14, 
+     .precoProd15{
+         position: relative;
+         grid-column: 2;
+         grid-row: 3;
+         top: 45%;
+         left: 10%;
+     }
+     .prodCa1, 
+     .prodCa2, 
+     .prodCa3, 
+     .prodCa4, 
+     .prodCa5,
+     .prodCa6, 
+     .prodCa7, 
+     .prodCa8, 
+     .prodCa9, 
+     .prodCa10,
+     .prodCa11, 
+     .prodCa12, 
+     .prodCa13, 
+     .prodCa14, 
+     .prodCa15{
+        position: absolute;
+        top: 40%;
+        right: 15%;
+        font-size: large;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 13rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+        transition: 0.01s;
+    }
+    .prodCa1:hover, 
+    .prodCa2:hover, 
+    .prodCa3:hover, 
+    .prodCa4:hover, 
+    .prodCa5:hover,
+    .prodCa6:hover, 
+    .prodCa7:hover, 
+    .prodCa8:hover, 
+    .prodCa9:hover, 
+    .prodCa10:hover,
+    .prodCa11:hover, 
+    .prodCa12:hover, 
+    .prodCa13:hover, 
+    .prodCa14:hover, 
+    .prodCa15:hover{
+        border-width: 0.4rem;
+    }
+    .prodDe1, 
+    .prodDe2, 
+    .prodDe3, 
+    .prodDe4, 
+    .prodDe5, 
+    .prodDe6, 
+    .prodDe7, 
+    .prodDe8, 
+    .prodDe9, 
+    .prodDe10,
+    .prodDe11, 
+    .prodDe12, 
+    .prodDe13, 
+    .prodDe14, 
+    .prodDe15{
+        position: absolute;
+        top: 40%;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 6rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+    }
+    #ProPag{
+        display:block;
+        position: absolute;
+        top: 350.3%;
+        left: 45%;
+        min-width: 18rem;
+        max-width: 10rem;
+        min-height: 5rem;
+        max-height: 3rem;
+        background-color: bisque;
+        color: darkblue;
+        border-color: aqua;
+        font-size: xx-large;
+        border-width: 0.3dvi;
+        transition: 0.2s
+    }
+    #ProPag:hover{
+        background-color: black;
+        color: gold;
+        border-color: silver;
+    }
+    .textoVaz{
+        position: absolute;
+        font-size: xx-large;
+        top: 50%;
+        left: 40%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 10%;
+        max-width: 65%;
+        max-height: 65%;
+    }
+    .carTex{
+        position: absolute;
+        font-size: XX-large;
+        right: 4%;
+        top: 64%;
+    }
+    .BrPesq{
+        position: relative;
+        display: flex;
+        top: 5%;
+        left: 20%;
+        align-items:center;
+        font-size: large;
+    }
+    .textPq{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        font-size: 50px;
+    }
+    .barraP{
+        min-height: 2rem;
+        min-width: 150%;
+        position:relative;
+        top: 0%;
+    }
+    .butP{
+        min-height: 2.5rem;
+        font-size: x-large;
+    }
+}
+@media(max-width:1700px){
+    html{
+        max-width: 2560px;
+    }
+    .prodcar1{
+        position: absolute;
+    min-height: 15.6rem;
+    top: 16.2%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 2rem;
+    
+    }
+    .prodcar2{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 45.2%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar3{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 74.2%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar4{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 103.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar5{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 132.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar6{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 161%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar7{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 189.8%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar8{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 218.9%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar9{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 247.9%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar10{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 277%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar11{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 306.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar12{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 334.9%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar13{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 363.7%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar14{
+        position: absolute;
+        min-height: 15.6rem;
+        top:392.7%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prodcar15{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 421.8%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 2rem;
+    }
+    .prod1, 
+    .prod2, 
+    .prod3, 
+    .prod4, 
+    .prod5, 
+    .prod6, 
+    .prod7, 
+    .prod8, 
+    .prod9, 
+    .prod10, 
+    .prod11, 
+    .prod12, 
+    .prod13, 
+    .prod14, 
+    .prod15{
+        position: relative;
+        max-width: 167px;
+        min-width: 167px;
+        max-height: 250px;
+        min-height: 250px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .prodTit1, 
+    .prodTit2, 
+    .prodTit3, 
+    .prodTit4, 
+    .prodTit5, 
+    .prodTit6, 
+    .prodTit7, 
+    .prodTit8, 
+    .prodTit9, 
+    .prodTit10, 
+    .prodTit11, 
+    .prodTit12, 
+    .prodTit13, 
+    .prodTit14, 
+    .prodTit15{
+        grid-row: 1;
+        grid-column: 2;
+     }
+     .precoProd1, 
+     .precoProd2, 
+     .precoProd3, 
+     .precoProd4, 
+     .precoProd5, 
+     .precoProd6, 
+     .precoProd7, 
+     .precoProd8, 
+     .precoProd9, 
+     .precoProd10, 
+     .precoProd11, 
+     .precoProd12, 
+     .precoProd13, 
+     .precoProd14, 
+     .precoProd15{
+         position: relative;
+         grid-column: 2;
+         grid-row: 3;
+         top: 45%;
+         left: 10%;
+     }
+     .prodCa1, 
+     .prodCa2, 
+     .prodCa3, 
+     .prodCa4, 
+     .prodCa5,
+     .prodCa6, 
+     .prodCa7, 
+     .prodCa8, 
+     .prodCa9, 
+     .prodCa10,
+     .prodCa11, 
+     .prodCa12, 
+     .prodCa13, 
+     .prodCa14, 
+     .prodCa15{
+        position: absolute;
+        top: 40%;
+        right: 15%;
+        font-size: large;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 13rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+        transition: 0.01s;
+    }
+    .prodCa1:hover, 
+    .prodCa2:hover, 
+    .prodCa3:hover, 
+    .prodCa4:hover, 
+    .prodCa5:hover,
+    .prodCa6:hover, 
+    .prodCa7:hover, 
+    .prodCa8:hover, 
+    .prodCa9:hover, 
+    .prodCa10:hover,
+    .prodCa11:hover, 
+    .prodCa12:hover, 
+    .prodCa13:hover, 
+    .prodCa14:hover, 
+    .prodCa15:hover{
+        border-width: 0.4rem;
+    }
+    .prodDe1, 
+    .prodDe2, 
+    .prodDe3, 
+    .prodDe4, 
+    .prodDe5, 
+    .prodDe6, 
+    .prodDe7, 
+    .prodDe8, 
+    .prodDe9, 
+    .prodDe10,
+    .prodDe11, 
+    .prodDe12, 
+    .prodDe13, 
+    .prodDe14, 
+    .prodDe15{
+        position: absolute;
+        top: 40%;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 6rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+    }
+    #ProPag{
+        display:grid;
+        position: absolute;
+        top: 451.3%;
+        left: 45%;
+        min-width: 10rem;
+        max-width: 10rem;
+        min-height: 3rem;
+        max-height: 3rem;
+        background-color: bisque;
+        color: darkblue;
+        border-color: aqua;
+        font-size: large;
+        border-width: 0.3dvi;
+        transition: 0.2s
+    }
+    .textoVaz{
+        position: absolute;
+        font-size: xx-large;
+        top: 50%;
+        left: 40%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 10%;
+        max-width: 65%;
+        max-height: 65%;
+    }
+    .carTex{
+        position: absolute;
+        right: 5%;
+        top: 67%;
+    }
+    .BrPesq{
+        position: relative;
+        display: flex;
+        top: 5%;
+        left: 0%;
+        align-items:center;
+        font-size: large;
+    }
+    .textPq{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        font-size: x-large;
+    }
+    .barraP{
+        max-height: 2rem;
+        min-width: 150%;
+        position:relative;
+        top: 0%;
+    }
+    .butP{
+        min-height: 1.4rem;
+    }
+}
+@media(max-width:1300px){
+    .prodcar1{
+        position: absolute;
+    min-height: 15.6rem;
+    top: 16.2%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 1.6rem;
+    
+    }
+    .prodcar2{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 52.48%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar3{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 88.75%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar4{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 125.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar5{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 161.3%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar6{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 197.5%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar7{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 233.7%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar8{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 269.7%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar9{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 305.6%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar10{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 341.9%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar11{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 378.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar12{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 414.2%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar13{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 450.3%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar14{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 486.5%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prodcar15{
+        position: absolute;
+        min-height: 15.6rem;
+        top: 522.6%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.6rem;
+    }
+    .prod1, 
+    .prod2, 
+    .prod3, 
+    .prod4, 
+    .prod5, 
+    .prod6, 
+    .prod7, 
+    .prod8, 
+    .prod9, 
+    .prod10, 
+    .prod11, 
+    .prod12, 
+    .prod13, 
+    .prod14, 
+    .prod15{
+        position: relative;
+        max-width: 167px;
+        min-width: 167px;
+        max-height: 250px;
+        min-height: 250px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .prodTit1, 
+    .prodTit2, 
+    .prodTit3, 
+    .prodTit4, 
+    .prodTit5, 
+    .prodTit6, 
+    .prodTit7, 
+    .prodTit8, 
+    .prodTit9, 
+    .prodTit10, 
+    .prodTit11, 
+    .prodTit12, 
+    .prodTit13, 
+    .prodTit14, 
+    .prodTit15{
+        grid-row: 1;
+        grid-column: 2;
+     }
+     .precoProd1, 
+     .precoProd2, 
+     .precoProd3, 
+     .precoProd4, 
+     .precoProd5, 
+     .precoProd6, 
+     .precoProd7, 
+     .precoProd8, 
+     .precoProd9, 
+     .precoProd10, 
+     .precoProd11, 
+     .precoProd12, 
+     .precoProd13, 
+     .precoProd14, 
+     .precoProd15{
+         position: relative;
+         grid-column: 2;
+         grid-row: 3;
+         top: 45%;
+         left: 10%;
+     }
+     .prodCa1, 
+     .prodCa2, 
+     .prodCa3, 
+     .prodCa4, 
+     .prodCa5,
+     .prodCa6, 
+     .prodCa7, 
+     .prodCa8, 
+     .prodCa9, 
+     .prodCa10,
+     .prodCa11, 
+     .prodCa12, 
+     .prodCa13, 
+     .prodCa14, 
+     .prodCa15{
+        position: absolute;
+        top: 40%;
+        right: 15%;
+        font-size: large;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 13rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+        transition: 0.01s;
+    }
+    .prodCa1:hover, 
+    .prodCa2:hover, 
+    .prodCa3:hover, 
+    .prodCa4:hover, 
+    .prodCa5:hover,
+    .prodCa6:hover, 
+    .prodCa7:hover, 
+    .prodCa8:hover, 
+    .prodCa9:hover, 
+    .prodCa10:hover,
+    .prodCa11:hover, 
+    .prodCa12:hover, 
+    .prodCa13:hover, 
+    .prodCa14:hover, 
+    .prodCa15:hover{
+        border-width: 0.4rem;
+    }
+    .prodDe1, 
+    .prodDe2, 
+    .prodDe3, 
+    .prodDe4, 
+    .prodDe5, 
+    .prodDe6, 
+    .prodDe7, 
+    .prodDe8, 
+    .prodDe9, 
+    .prodDe10,
+    .prodDe11, 
+    .prodDe12, 
+    .prodDe13, 
+    .prodDe14, 
+    .prodDe15{
+        position: absolute;
+        top: 40%;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 6rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+    }
+    #ProPag{
+        display:grid;
+        position: absolute;
+        top: 559.3%;
+        left: 45%;
+        min-width: 10rem;
+        max-width: 10rem;
+        min-height: 3rem;
+        max-height: 3rem;
+        background-color: bisque;
+        color: darkblue;
+        border-color: aqua;
+        font-size: large;
+        border-width: 0.3dvi;
+        transition: 0.2s
+    }
+    .textoVaz{
+        position: absolute;
+        font-size: x-large;
+        top: 50%;
+        left: 40%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 10%;
+        max-width: 65%;
+        max-height: 65%;
+    }
+    .carTex{
+        position: absolute;
+        right: 5%;
+        top: 67%;
+    }
+    .BrPesq{
+        position: relative;
+        display: flex;
+        top: 5%;
+        left: -15%;
+        align-items:center;
+        font-size: large;
+    }
+    .textPq{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        font-size: x-large;
+    }
+    .barraP{
+        max-height: 2rem;
+        min-width: 150%;
+        position:relative;
+        top: 0%;
+    }
+    .butP{
+        min-height: 1.4rem;
+    }
+}
+@media(max-width:900px){
+    .prodcar1{
+        position: absolute;
+    min-height: 11.7rem;
+    top: 16.2%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 1.3rem;
+    
+    }
+    .prodcar2{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 52.48%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar3{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 88.75%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar4{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 125.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar5{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 161.3%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar6{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 197.5%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar7{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 233.7%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar8{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 269.7%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar9{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 305.6%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar10{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 341.9%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar11{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 378.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar12{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 414.2%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar13{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 450.3%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar14{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 486.5%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prodcar15{
+        position: absolute;
+        min-height: 11.7rem;
+        top: 522.6%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 1.3rem;
+    }
+    .prod1, 
+    .prod2, 
+    .prod3, 
+    .prod4, 
+    .prod5, 
+    .prod6, 
+    .prod7, 
+    .prod8, 
+    .prod9, 
+    .prod10, 
+    .prod11, 
+    .prod12, 
+    .prod13, 
+    .prod14, 
+    .prod15{
+        position: relative;
+        max-width: 107px;
+        min-width: 157px;
+        max-height: 100px;
+        min-height: 187px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .prodTit1, 
+    .prodTit2, 
+    .prodTit3, 
+    .prodTit4, 
+    .prodTit5, 
+    .prodTit6, 
+    .prodTit7, 
+    .prodTit8, 
+    .prodTit9, 
+    .prodTit10, 
+    .prodTit11, 
+    .prodTit12, 
+    .prodTit13, 
+    .prodTit14, 
+    .prodTit15{
+        grid-row: 1;
+        grid-column: 2;
+     }
+     .precoProd1, 
+     .precoProd2, 
+     .precoProd3, 
+     .precoProd4, 
+     .precoProd5, 
+     .precoProd6, 
+     .precoProd7, 
+     .precoProd8, 
+     .precoProd9, 
+     .precoProd10, 
+     .precoProd11, 
+     .precoProd12, 
+     .precoProd13, 
+     .precoProd14, 
+     .precoProd15{
+         position: relative;
+         grid-column: 2;
+         grid-row: 3;
+         top: 45%;
+         left: 10%;
+     }
+     .prodCa1, 
+     .prodCa2, 
+     .prodCa3, 
+     .prodCa4, 
+     .prodCa5,
+     .prodCa6, 
+     .prodCa7, 
+     .prodCa8, 
+     .prodCa9, 
+     .prodCa10,
+     .prodCa11, 
+     .prodCa12, 
+     .prodCa13, 
+     .prodCa14, 
+     .prodCa15{
+        position: absolute;
+        top: 40%;
+        right: 15%;
+        font-size: small;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 13rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+        transition: 0.01s;
+    }
+    .prodCa1:hover, 
+    .prodCa2:hover, 
+    .prodCa3:hover, 
+    .prodCa4:hover, 
+    .prodCa5:hover,
+    .prodCa6:hover, 
+    .prodCa7:hover, 
+    .prodCa8:hover, 
+    .prodCa9:hover, 
+    .prodCa10:hover,
+    .prodCa11:hover, 
+    .prodCa12:hover, 
+    .prodCa13:hover, 
+    .prodCa14:hover, 
+    .prodCa15:hover{
+        border-width: 0.4rem;
+    }
+    .prodDe1, 
+    .prodDe2, 
+    .prodDe3, 
+    .prodDe4, 
+    .prodDe5, 
+    .prodDe6, 
+    .prodDe7, 
+    .prodDe8, 
+    .prodDe9, 
+    .prodDe10,
+    .prodDe11, 
+    .prodDe12, 
+    .prodDe13, 
+    .prodDe14, 
+    .prodDe15{
+        position: absolute;
+        top: 40%;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 6rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+        font-size: small;
+    }
+    #ProPag{
+        display:grid;
+        position: absolute;
+        top: 559.3%;
+        left: 45%;
+        min-width: 10rem;
+        max-width: 10rem;
+        min-height: 3rem;
+        max-height: 3rem;
+        background-color: bisque;
+        color: darkblue;
+        border-color: aqua;
+        font-size: large;
+        border-width: 0.3dvi;
+        transition: 0.2s
+    }
+    .textoVaz{
+        position: absolute;
+        font-size: x-large;
+        top: 50%;
+        left: 40%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 12%;
+        max-width: 60%;
+        max-height: 60%;
+    }
+    .carTex{
+        position: absolute;
+        right: 2%;
+        top: 50%;
+    }
+    .BrPesq{
+        display: flex;
+        position: relative;
+        top: 5%;
+        left: -27%;
+        align-items:center;
+        font-size: large;
+    }
+    .textPq{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        font-size: x-large;
+    }
+    .barraP{
+        max-height: 2rem;
+        min-width: 90%;
+        position:relative;
+        top: 0%;
+    }
+    .butP{
+        min-height: 1.4rem;
+    }
+}
+@media(max-width:500px){
+    .prodcar1{
+        position: absolute;
+    min-height: 8.6rem;
+    top: 15.9%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 0.7rem;
+    
+    }
+    .prodcar2{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 42.99%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar3{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 69.95%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar4{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 96.9%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar5{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 123.8%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar6{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 150.8%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar7{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 178.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar8{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 205.3%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar9{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 231.6%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar10{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 258.9%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar11{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 286.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar12{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 313.2%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar13{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 340.3%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar14{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 367.0%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar15{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 393.6%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prod1, 
+    .prod2, 
+    .prod3, 
+    .prod4, 
+    .prod5, 
+    .prod6, 
+    .prod7, 
+    .prod8, 
+    .prod9, 
+    .prod10, 
+    .prod11, 
+    .prod12, 
+    .prod13, 
+    .prod14, 
+    .prod15{
+        position: relative;
+        max-width: 107px;
+        min-width: 127px;
+        max-height: 100px;
+        min-height: 137px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .prodTit1, 
+    .prodTit2, 
+    .prodTit3, 
+    .prodTit4, 
+    .prodTit5, 
+    .prodTit6, 
+    .prodTit7, 
+    .prodTit8, 
+    .prodTit9, 
+    .prodTit10, 
+    .prodTit11, 
+    .prodTit12, 
+    .prodTit13, 
+    .prodTit14, 
+    .prodTit15{
+        grid-row: 1;
+        grid-column: 2;
+     }
+     .precoProd1, 
+     .precoProd2, 
+     .precoProd3, 
+     .precoProd4, 
+     .precoProd5, 
+     .precoProd6, 
+     .precoProd7, 
+     .precoProd8, 
+     .precoProd9, 
+     .precoProd10, 
+     .precoProd11, 
+     .precoProd12, 
+     .precoProd13, 
+     .precoProd14, 
+     .precoProd15{
+         position: relative;
+         grid-column: 2;
+         grid-row: 3;
+         top: -25%;
+         left: 0%;
+     }
+     .prodCa1, 
+     .prodCa2, 
+     .prodCa3, 
+     .prodCa4, 
+     .prodCa5,
+     .prodCa6, 
+     .prodCa7, 
+     .prodCa8, 
+     .prodCa9, 
+     .prodCa10,
+     .prodCa11, 
+     .prodCa12, 
+     .prodCa13, 
+     .prodCa14, 
+     .prodCa15{
+        position: absolute;
+        top: 40%;
+        right: 19%;
+        font-size: xx-small;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 13rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+        transition: 0.01s;
+    }
+    .prodCa1:hover, 
+    .prodCa2:hover, 
+    .prodCa3:hover, 
+    .prodCa4:hover, 
+    .prodCa5:hover,
+    .prodCa6:hover, 
+    .prodCa7:hover, 
+    .prodCa8:hover, 
+    .prodCa9:hover, 
+    .prodCa10:hover,
+    .prodCa11:hover, 
+    .prodCa12:hover, 
+    .prodCa13:hover, 
+    .prodCa14:hover, 
+    .prodCa15:hover{
+        border-width: 0.4rem;
+    }
+    .prodDe1, 
+    .prodDe2, 
+    .prodDe3, 
+    .prodDe4, 
+    .prodDe5, 
+    .prodDe6, 
+    .prodDe7, 
+    .prodDe8, 
+    .prodDe9, 
+    .prodDe10,
+    .prodDe11, 
+    .prodDe12, 
+    .prodDe13, 
+    .prodDe14, 
+    .prodDe15{
+        position: absolute;
+        top: 40%;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 6rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+        font-size: xx-small;
+    }
+    #ProPag{
+        display:grid;
+        position: absolute;
+        top: 421.3%;
+        left: 45%;
+        min-width: 7rem;
+        max-width: 5rem;
+        min-height: 1.4rem;
+        max-height: 1rem;
+        background-color: bisque;
+        color: darkblue;
+        border-color: aqua;
+        font-size: small;
+        border-width: 0.3dvi;
+        transition: 0.2s
+    }
+    .textoVaz{
+        position: absolute;
+        font-size: medium;
+        top: 50%;
+        left: 35%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 17%;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    .carTex{
+        position: absolute;
+        font-size: x-small;
+        right: 2%;
+        top: 50%;
+    }
+    .BrPesq{
+        display: flex;
+        position: relative;
+        top: 5%;
+        left: -40%;
+        align-items:center;
+        font-size: large;
+    }
+    .textPq{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        font-size: small;
+    }
+    .barraP{
+        max-height: 0.6rem;
+        max-width: 10px;
+        position:relative;
+        top: 0%;
+    }
+    .butP{
+        height: 1px;
+        font-size: xx-small;
+    }
+    .setaVolt{
+        max-width: 60%;
+        max-height: 60%;
+        position: relative;
+        top: 20%;
+    }
+}
+@media(max-width:400px){
+    .prodcar1{
+        position: absolute;
+    min-height: 8.6rem;
+    top: 15.9%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 0.7rem;
+    
+    }
+    .prodcar2{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 42.99%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar3{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 69.95%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar4{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 96.9%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar5{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 123.8%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar6{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 150.8%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar7{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 178.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar8{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 205.3%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar9{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 231.6%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar10{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 258.9%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar11{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 286.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar12{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 313.2%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar13{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 340.3%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar14{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 367.0%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar15{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 393.6%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prod1, 
+    .prod2, 
+    .prod3, 
+    .prod4, 
+    .prod5, 
+    .prod6, 
+    .prod7, 
+    .prod8, 
+    .prod9, 
+    .prod10, 
+    .prod11, 
+    .prod12, 
+    .prod13, 
+    .prod14, 
+    .prod15{
+        position: relative;
+        max-width: 107px;
+        min-width: 127px;
+        max-height: 100px;
+        min-height: 137px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .prodTit1, 
+    .prodTit2, 
+    .prodTit3, 
+    .prodTit4, 
+    .prodTit5, 
+    .prodTit6, 
+    .prodTit7, 
+    .prodTit8, 
+    .prodTit9, 
+    .prodTit10, 
+    .prodTit11, 
+    .prodTit12, 
+    .prodTit13, 
+    .prodTit14, 
+    .prodTit15{
+        grid-row: 1;
+        grid-column: 2;
+     }
+     .precoProd1, 
+     .precoProd2, 
+     .precoProd3, 
+     .precoProd4, 
+     .precoProd5, 
+     .precoProd6, 
+     .precoProd7, 
+     .precoProd8, 
+     .precoProd9, 
+     .precoProd10, 
+     .precoProd11, 
+     .precoProd12, 
+     .precoProd13, 
+     .precoProd14, 
+     .precoProd15{
+         position: relative;
+         grid-column: 2;
+         grid-row: 3;
+         top: -25%;
+         left: 0%;
+     }
+     .prodCa1, 
+     .prodCa2, 
+     .prodCa3, 
+     .prodCa4, 
+     .prodCa5,
+     .prodCa6, 
+     .prodCa7, 
+     .prodCa8, 
+     .prodCa9, 
+     .prodCa10,
+     .prodCa11, 
+     .prodCa12, 
+     .prodCa13, 
+     .prodCa14, 
+     .prodCa15{
+        position: absolute;
+        top: 40%;
+        right: 21%;
+        font-size: xx-small;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 10rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+        transition: 0.01s;
+    }
+    .prodCa1:hover, 
+    .prodCa2:hover, 
+    .prodCa3:hover, 
+    .prodCa4:hover, 
+    .prodCa5:hover,
+    .prodCa6:hover, 
+    .prodCa7:hover, 
+    .prodCa8:hover, 
+    .prodCa9:hover, 
+    .prodCa10:hover,
+    .prodCa11:hover, 
+    .prodCa12:hover, 
+    .prodCa13:hover, 
+    .prodCa14:hover, 
+    .prodCa15:hover{
+        border-width: 0.4rem;
+    }
+    .prodDe1, 
+    .prodDe2, 
+    .prodDe3, 
+    .prodDe4, 
+    .prodDe5, 
+    .prodDe6, 
+    .prodDe7, 
+    .prodDe8, 
+    .prodDe9, 
+    .prodDe10,
+    .prodDe11, 
+    .prodDe12, 
+    .prodDe13, 
+    .prodDe14, 
+    .prodDe15{
+        position: absolute;
+        top: 40%;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 6rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+        font-size: xx-small;
+    }
+    #ProPag{
+        display:grid;
+        position: absolute;
+        top: 421.3%;
+        left: 37%;
+        min-width: 7rem;
+        max-width: 5rem;
+        min-height: 1.4rem;
+        max-height: 1rem;
+        background-color: bisque;
+        color: darkblue;
+        border-color: aqua;
+        font-size: small;
+        border-width: 0.3dvi;
+        transition: 0.2s
+    }
+    .textoVaz{
+        position: absolute;
+        font-size: medium;
+        top: 50%;
+        left: 35%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 17%;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    .carTex{
+        position: absolute;
+        font-size: x-small;
+        right: 2%;
+        top: 50%;
+    }
+    .BrPesq{
+        display: flex;
+        position: relative;
+        top: 5%;
+        left: -45%;
+        align-items:center;
+        font-size: large;
+    }
+    .textPq{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        font-size: small;
+    }
+    .barraP{
+        max-height: 0.6rem;
+        max-width: 10px;
+        position:relative;
+        top: 0%;
+    }
+    .butP{
+        height: 1px;
+        font-size: xx-small;
+    }
+    .setaVolt{
+        max-width: 60%;
+        max-height: 60%;
+        position: relative;
+        top: 20%;
+    }
+}
+@media(max-width:330px){
+    .prodcar1{
+        position: absolute;
+    min-height: 8.6rem;
+    top: 15.9%;
+    left: 0%;
+    right: 0%;
+    border-style: solid;
+    border-color: black;
+    display: none;
+    grid-template-columns: 11rem;
+    grid-template-rows: 3rem;
+    row-gap: 0px;
+    column-gap: 0px;
+    font-size: 0.7rem;
+    
+    }
+    .prodcar2{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 42.99%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar3{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 69.95%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar4{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 96.9%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar5{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 123.8%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar6{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 150.8%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar7{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 178.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar8{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 205.3%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar9{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 231.6%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar10{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 258.9%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar11{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 286.1%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar12{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 313.2%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar13{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 340.3%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar14{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 367.0%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prodcar15{
+        position: absolute;
+        min-height: 8.6rem;
+        top: 393.6%;
+        left: 0%;
+        right: 0%;
+        border-style: solid;
+        border-color: black;
+        display: none;
+        grid-template-columns: 11rem;
+        grid-template-rows: 3rem;
+        row-gap: 0px;
+        column-gap: 0px;
+        font-size: 0.7rem;
+    }
+    .prod1, 
+    .prod2, 
+    .prod3, 
+    .prod4, 
+    .prod5, 
+    .prod6, 
+    .prod7, 
+    .prod8, 
+    .prod9, 
+    .prod10, 
+    .prod11, 
+    .prod12, 
+    .prod13, 
+    .prod14, 
+    .prod15{
+        position: relative;
+        max-width: 107px;
+        min-width: 127px;
+        max-height: 100px;
+        min-height: 137px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .prodTit1, 
+    .prodTit2, 
+    .prodTit3, 
+    .prodTit4, 
+    .prodTit5, 
+    .prodTit6, 
+    .prodTit7, 
+    .prodTit8, 
+    .prodTit9, 
+    .prodTit10, 
+    .prodTit11, 
+    .prodTit12, 
+    .prodTit13, 
+    .prodTit14, 
+    .prodTit15{
+        grid-row: 1;
+        grid-column: 2;
+     }
+     .precoProd1, 
+     .precoProd2, 
+     .precoProd3, 
+     .precoProd4, 
+     .precoProd5, 
+     .precoProd6, 
+     .precoProd7, 
+     .precoProd8, 
+     .precoProd9, 
+     .precoProd10, 
+     .precoProd11, 
+     .precoProd12, 
+     .precoProd13, 
+     .precoProd14, 
+     .precoProd15{
+         position: relative;
+         grid-column: 2;
+         grid-row: 3;
+         top: -25%;
+         left: 0%;
+     }
+     .prodCa1, 
+     .prodCa2, 
+     .prodCa3, 
+     .prodCa4, 
+     .prodCa5,
+     .prodCa6, 
+     .prodCa7, 
+     .prodCa8, 
+     .prodCa9, 
+     .prodCa10,
+     .prodCa11, 
+     .prodCa12, 
+     .prodCa13, 
+     .prodCa14, 
+     .prodCa15{
+        position: absolute;
+        top: 40%;
+        right: 21%;
+        font-size: xx-small;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 10rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+        transition: 0.01s;
+    }
+    .prodCa1:hover, 
+    .prodCa2:hover, 
+    .prodCa3:hover, 
+    .prodCa4:hover, 
+    .prodCa5:hover,
+    .prodCa6:hover, 
+    .prodCa7:hover, 
+    .prodCa8:hover, 
+    .prodCa9:hover, 
+    .prodCa10:hover,
+    .prodCa11:hover, 
+    .prodCa12:hover, 
+    .prodCa13:hover, 
+    .prodCa14:hover, 
+    .prodCa15:hover{
+        border-width: 0.4rem;
+    }
+    .prodDe1, 
+    .prodDe2, 
+    .prodDe3, 
+    .prodDe4, 
+    .prodDe5, 
+    .prodDe6, 
+    .prodDe7, 
+    .prodDe8, 
+    .prodDe9, 
+    .prodDe10,
+    .prodDe11, 
+    .prodDe12, 
+    .prodDe13, 
+    .prodDe14, 
+    .prodDe15{
+        position: absolute;
+        top: 40%;
+        right: 1%;
+        grid-column: 4;
+        grid-row: 3;
+        max-width: 6rem;
+        max-height: 2rem;
+        border-width: 0.3rem;
+        font-size: xx-small;
+    }
+    #ProPag{
+        display:grid;
+        position: absolute;
+        top: 421.3%;
+        left: 37%;
+        min-width: 7rem;
+        max-width: 5rem;
+        min-height: 1.4rem;
+        max-height: 1rem;
+        background-color: bisque;
+        color: darkblue;
+        border-color: aqua;
+        font-size: small;
+        border-width: 0.3dvi;
+        transition: 0.2s
+    }
+    .textoVaz{
+        position: absolute;
+        font-size: small;
+        top: 50%;
+        left: 35%;
+    }
+    .carCom{
+        position: absolute;
+        right: 5%;
+        top: 17%;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    .carTex{
+        position: absolute;
+        font-size: x-small;
+        right: 2%;
+        top: 50%;
+    }
+    .BrPesq{
+        display: flex;
+        position: relative;
+        top: 5%;
+        left: -50%;
+        align-items:center;
+        font-size: large;
+    }
+    .textPq{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        font-size: x-small;
+    }
+    .barraP{
+        max-height: 0.6rem;
+        max-width: 0.1px;
+        position:relative;
+        top: 0%;
+        font-size: xx-small;
+    }
+    .butP{
+        height: 0.02px;
+        font-size: 6px;
+    }
+    .setaVolt{
+        max-width: 55%;
+        max-height: 55%;
+        position: relative;
+        left: -2%;
+        top: 20%;
+    }
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Do Tucunaré</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f19997a47d.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</head>
+<body onload="loadCard()">
+
+
+    <header>
+
+        <!-- Cabeçalho -->
+        
+        <h1 class="titulo">Pesca Esportiva</h1>
+        <div id="formContatos">
+        <p class="barra">Barra de Pesquisa:</p><input type="text" id="campoNome"><br>
+        <a id="btnIncluirContato" href="./Search.html" onclick="pes()">Buscar</a>
+
+        <nav class="Login">
+            <li class="cadastro"><a href="http://">Cadastro</a></li>
+            <li class="entrar"><a href="http://">Entrar</a></li>
+        </nav>
+
+
+    </div>
+
+    <img class="Carrinho" src="./Imagens/Carrinho.png.png" alt="Carrinho">
+    <select id="nenao" onchange="filtro()">
+        <option selected value="">Categoria</option>
+        <option value="Footwear%20-%20Shoes">Sapatos</option>
+        <option value="Accessories%20-%20Accessories">Acessorios</option>
+        <option value="Footwear%20-%20Flip%20Flops">Chinelos</option>
+        <option value="Accessories%20-%20Watches">Relogios</option>
+    </select>
+    </header>
+
+    <div class="Cards">
+
+        <div class="Card1" id="Card1">   
+        
+            <img class="card-img1" src="./Imagens/carretilha teste.jpg" alt="CARD1">
+            <p class="titulo1">Carretilha multifilamento para tucunare </p>
+            <p class="aopa">
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>    
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>    
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>
+            <i class="fa-solid fa-star-half-stroke" style="color: #e5ad15;"></i>
+        </p>
+            <p class="preco1">R$199,00</p>
+            <BUtton class="inf1">Ver mais informaçôes</BUtton>
+        </div>
+
+        <div class="Card2" id="Card2">   
+        
+            <img class="card-img2" src="./Imagens/carretilha teste.jpg" alt="CARD1">
+            <p class="titulo2">Carretilha multifilamento para tucunare </p>
+            <p class="aopa">
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>    
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>    
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>
+            <i class="fa-solid fa-star-half-stroke" style="color: #e5ad15;"></i>
+        </p>
+            <p class="preco2">R$199,00</p>
+            <BUtton class="inf2">Ver mais informaçôes</BUtton>
+        </div>
+
+        <div class="Card3" id="Card3">   
+        
+            <img class="card-img3" src="./Imagens/carretilha teste.jpg" alt="CARD1">
+            <p class="titulo3">Carretilha multifilamento para tucunare </p>
+            <p class="aopa">
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>    
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>    
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>
+            <i class="fa-solid fa-star-half-stroke" style="color: #e5ad15;"></i>
+        </p>
+            <p class="preco3">R$199,00</p>
+            <BUtton class="inf3">Ver mais informaçôes</BUtton>
+        </div>
+
+        <div class="Card4" id="Card4">   
+        
+            <img class="card-img4" src="./Imagens/carretilha teste.jpg" alt="CARD1">
+            <p class="titulo4">Carretilha multifilamento para tucunare </p>
+            <p class="aopa">
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>    
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>    
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>
+            <i class="fa-solid fa-star-half-stroke" style="color: #e5ad15;"></i>
+        </p>
+            <p class="preco4">R$199,00</p>
+            <BUtton class="inf4">Ver mais informaçôes</BUtton>
+        </div>
+
+        <div class="Card5" id="Card5">   
+        
+            <img class="card-img5" src="./Imagens/carretilha teste.jpg" alt="CARD1">
+            <p class="titulo5">Carretilha multifilamento para tucunare </p>
+            <p class="aopa">
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>    
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>    
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>
+            <i class="fa-solid fa-star-half-stroke" style="color: #e5ad15;"></i>
+        </p>
+            <p class="preco5">R$199,00</p>
+            <BUtton class="inf5">Ver mais informaçôes</BUtton>
+        </div>
+
+        <div class="Card6" id="Card6">   
+        
+            <img class="card-img6" src="./Imagens/carretilha teste.jpg" alt="CARD1">
+            <p class="titulo6">Carretilha multifilamento para tucunare </p>
+            <p class="aopa">
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>    
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>    
+            <i class="fa-solid fa-star" style="color: #e5ad15;"></i>
+            <i class="fa-solid fa-star-half-stroke" style="color: #e5ad15;"></i>
+        </p>
+            <p class="preco6">R$199,00</p>
+            <BUtton class="inf6">Ver mais informaçôes</BUtton>
+        </div>
+
+        <div>
+            <img class="tuca" src="./Imagens/tuca1.jpg" alt="Azul">
+        </div>
+        
+    </div>
+
+    <footer>   
+        <div>
+            <p class="pagamento">Metodos de Pagamento <br>
+                <br class="pag">
+                Cartão de credito <br>
+                <br>
+                Boleto bancario <br>
+                <br>
+                Pix <br>
+                <br>   
+                Transferência Bancaria 
+                <br>            
+            </p>
+
+            <p class="fale">Fale conosco <br>
+                <br>
+                Comunidade <br>                
+                <br>
+                Facebook <br>
+                <br>
+                Twitter <br>
+                <br>
+                Instagram <br>                
+            </p>
+            
+            <p class="conta">Conta <br>
+                <br>
+                Minha conta <br>
+                <br>
+                Status do pedido <br>
+                <br>
+                Meus Produtos
+            </p>
+        </div>
+        
+    </footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
